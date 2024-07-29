@@ -7,7 +7,9 @@ body {
 .app-container {
   display: flex;
   flex-direction: column;
-  background-color: #f4f4f4;
+  justify-content:flex-start;
+  align-items:center;
+  background-color: black;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -17,6 +19,7 @@ body {
 .heading {
   font-size: 28px;
   margin: 0px 0px 10px 0px;
+  color:blue;
 }
 
 .notes-container {
@@ -28,18 +31,18 @@ body {
 
 textarea {
   font-size: 16px;
-  width: 280px;
-  height: 100px;
+  width: 180vw;
+  height: 30vh;
   padding: 10px;
   margin-bottom: 10px;
   border-radius: 4px;
   border: 1px solid #ccc;
-  resize: none;
+ 
 }
 
 @media screen and (min-width: 768px) {
   textarea {
-    width: 45%;
+    width: 185%;
   }
 }
 
@@ -49,17 +52,17 @@ button {
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  background: #007BFF;
-  color: white;
+  background: #e0e2e4;
+  color: rgb(36, 24, 24);
   margin-right: 5px;
 }
 
 button:hover {
-  background: #0056b3;
+  background: #c90858;
 }
 
 .notes-list {
-  background: #e9ecef;
+  background: #aecff0;
   margin-bottom: 0px 10px;
   padding: 10px;
   border-radius: 4px;
@@ -84,7 +87,7 @@ button:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: pink;
+  background-color: rgb(112, 123, 126);
   margin: 10px 0px 12px 0px;
   padding: 10px 12px;
   border-radius: 5px;
